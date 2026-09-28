@@ -12,5 +12,5 @@ Show() → displays the message.
 this → refers to the current form.
 .Close() → closes the current form.
 
-Understood, I'll reply in English from now on. The README.md I made in my last message is already fully in English, so you can open it from the file card above. If you meant something else, like a different section or more detail, just tell me.
-
+ ## lbl
+ This code is used to display the student's complete information on the form. The `fullinfo` variable contains the student's combined information, while `lblshowinfo` is the Label control where the information is displayed. When `lblshowinfo.Text = fullinfo` runs, the information stored in `fullinfo` appears inside the label.

@@ -4,6 +4,10 @@ Show() → displays the message.
 "welcome CA242" → is the text shown inside the message box.
 ; → indicates the end of the statement
 
+
+
+
+
 ## Close the form using Close function → This is a comment that explains what the code does.
 this → refers to the current form.
 .Close() → closes the current form.

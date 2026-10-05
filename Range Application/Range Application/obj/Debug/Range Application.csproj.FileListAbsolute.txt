@@ -1,0 +1,11 @@
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\bin\Debug\Range Application.exe.config
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\bin\Debug\Range Application.exe
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\bin\Debug\Range Application.pdb
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range_Application.Form1.resources
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range_Application.Properties.Resources.resources
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.csproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.exe
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.pdb
+C:\Users\hp\OneDrive\Desktop\Range Application\Range Application\obj\Debug\Range Application.exe.config

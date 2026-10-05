@@ -1,0 +1,11 @@
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\bin\Debug\Over Time Hores.exe.config
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\bin\Debug\Over Time Hores.exe
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\bin\Debug\Over Time Hores.pdb
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over_Time_Hores.Form1.resources
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over_Time_Hores.Properties.Resources.resources
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.csproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.exe
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.pdb
+C:\Users\hp\OneDrive\Desktop\Over Time Hores\Over Time Hores\obj\Debug\Over Time Hores.exe.config

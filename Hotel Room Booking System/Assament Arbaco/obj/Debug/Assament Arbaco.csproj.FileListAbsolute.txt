@@ -1,0 +1,11 @@
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\bin\Debug\Assament Arbaco.exe.config
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\bin\Debug\Assament Arbaco.exe
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\bin\Debug\Assament Arbaco.pdb
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament_Arbaco.Form1.resources
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament_Arbaco.Properties.Resources.resources
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.csproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.exe
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.pdb
+C:\Users\hp\OneDrive\Desktop\Assament Arbaco\Assament Arbaco\obj\Debug\Assament Arbaco.exe.config

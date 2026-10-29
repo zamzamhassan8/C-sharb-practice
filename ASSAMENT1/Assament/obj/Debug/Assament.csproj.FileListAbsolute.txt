@@ -1,0 +1,11 @@
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\bin\Debug\Assament.exe.config
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\bin\Debug\Assament.exe
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\bin\Debug\Assament.pdb
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.Form1.resources
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.Properties.Resources.resources
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.csproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.exe
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.pdb
+C:\Users\hp\OneDrive\Desktop\ASSAMENT1\Assament\obj\Debug\Assament.exe.config

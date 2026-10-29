@@ -1,0 +1,47 @@
+1
+# C# File Creation Using Windows Forms
+
+## Description
+This project demonstrates how to create a text file using C# Windows Forms.
+
+## How It Works
+When the user clicks the Create File button, the program creates a file named `Test.txt`. It then writes my name, university, faculty, and age into the file using the `StreamWriter` class.
+
+After saving the information, the program closes the file and displays a message to confirm that the file was created successfully.
+
+
+2
+
+# C# Read Text File Using Windows Forms
+
+## Description
+This project demonstrates how to read information from a text file using C# Windows Forms.
+
+## How It Works
+When the user clicks the Read File button, the program checks whether `Test.txt` exists. If the file is found, it reads all the lines using `File.ReadAllLines()` and displays them in a ListBox.
+
+If the file does not exist, the program displays a message asking the user to create the file first. The `try-catch` block handles errors that may occur during the process.
+
+3
+
+# C# Delete File Using Windows Forms
+
+## Description
+This project demonstrates how to delete a text file using C# Windows Forms.
+
+## How It Works
+When the user clicks the Delete File button, the program checks whether `Test.txt` exists. If the file exists, it deletes the file using `File.Delete()` and clears all items from the ListBox.
+
+If the file does not exist, the program displays a message. The `try-catch` block is used to handle errors.
+
+4
+
+# C# Delete Selected Item from File
+
+## Description
+This project uses C# Windows Forms to delete a selected item from a ListBox and update the text file.
+
+## How It Works
+The program checks whether the user has selected an item in the ListBox. If an item is selected, it removes the item, saves the remaining items back to `Test.txt`, and displays a success message.
+
+If no item is selected, the program asks the user to select an item first. The `try-catch` block handles errors.

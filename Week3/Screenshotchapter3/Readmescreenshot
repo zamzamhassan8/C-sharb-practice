@@ -1,0 +1,418 @@
+1. if Statement
+
+## Description
+This C# Windows Forms application calculates a bonus based on sales.
+
+## Features
+- Accepts sales amounts from a TextBox.
+- Checks whether the input is a valid decimal number.
+- Awards a bonus of 500 when sales are greater than 50,000.
+- Displays the bonus in currency format.
+- Shows an error message when the input is invalid.
+
+## Bonus Rules
+- Sales greater than 50,000: Bonus = 500.
+- Sales of 50,000 or less: Bonus = 0.
+
+## Technologies Used
+- C#
+- Windows Forms
+- Visual Studio
+
+## How to Use
+1. Enter the sales amount.
+2. Run the calculation.
+3. View the bonus result.
+4. If the input is invalid, an error message will appear.
+
+
+
+2. if-else Statement
+# If-Else Statement in C#
+
+## Description
+This project demonstrates how to use the `if-else` statement in C# Windows Forms to check the temperature and display a message based on a condition.
+
+## Code Explanation
+- `double temperature;` declares a variable to store the temperature.
+- `double.TryParse()` checks whether the input is a valid number.
+- `if (temperature > 40)` checks whether the temperature is greater than 40.
+- `else` executes when the temperature is 40 or below.
+- `lblbonusLabel.Text` displays the result to the user.
+
+## Example Output
+- Temperature = 45 → It is hot outside.
+- Temperature = 25 → It is not hot outside.
+
+## Technologies Used
+- C#
+- Windows Forms
+- Visual Studio
+
+## Objective
+To understand and practice the `if-else` conditional statement in C#.
+
+
+3. Nested if and if-else-if
+
+# Nested If and If-Else-If Statements in C#
+
+## Description
+This project demonstrates the use of nested `if` and `if-else` statements in C# Windows Forms to determine whether a loan applicant qualifies for a loan based on salary and years at their current job.
+
+## Code Explanation
+- `decimal salary;` declares a variable to store the applicant's salary.
+- `int yearsOnJob;` declares a variable to store the number of years the applicant has worked at their current job.
+- `TryParse()` validates the input values.
+- `if (salary >= 40000)` checks whether the applicant meets the minimum salary requirement.
+- `if (yearsOnJob >= 2)` checks whether the applicant has worked at their current job for at least two years.
+- `else` displays a message when a requirement is not met.
+- `MessageBox.Show()` displays the result to the user.
+
+## Loan Qualification Rules
+- Salary must be at least 40,000.
+- The applicant must have worked at their current job for at least 2 years.
+- If both conditions are met, the applicant qualifies for the loan.
+- Invalid input displays an error message.
+
+## Example Results
+- Salary: 45,000; Years on Job: 3 → You qualify for the loan.
+- Salary: 45,000; Years on Job: 1 → Minimum years at current job not met.
+- Salary: 35,000 → Minimum salary requirement not met.
+- Invalid input → Please enter valid numbers.
+
+## Technologies Used
+- C#
+- Windows Forms
+- Visual Studio
+- Nested If Statements
+- If-Else Statements
+- `TryParse()` and `MessageBox.Show()`
+
+## Objective
+To understand how nested `if` and `if-else` statements work and how to validate user input in C#.
+
+
+4. Logical Operators
+
+# Logical Operators in C#
+
+## Description
+This program uses logical operators to check multiple conditions in C#.
+
+## Operators Used
+- `&&` (AND): Returns true when both conditions are true.
+- `||` (OR): Returns true when at least one condition is true.
+- `!` (NOT): Reverses a Boolean value.
+
+## Example
+```csharp
+int year = 2024;
+
+if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+{
+    lblbonusLabel.Text = year + " is a leap year.";
+}
+else
+{
+    lblbonusLabel.Text = year + " is not a leap year.";
+}
+```
+
+## Output
+`2024 is a leap year.`
+
+## Language
+C# (Windows Forms)
+
+5. bool Variables and Flags
+
+# bool Variables and Flags (C#)
+
+A short C# example showing how to store the result of a comparison in a `bool` variable (a *flag*) and use it in an `if` statement.
+
+## Code
+
+```csharp
+int age = 20;
+
+bool isAdult = age >= 18;
+
+if (isAdult)
+{
+    MessageBox.Show("You can vote.");
+}
+```
+
+## What it does
+
+1. `int age = 20;` stores the person's age.
+2. `bool isAdult = age >= 18;` compares `age` with 18 and stores the result (`true` or `false`) in `isAdult`.
+3. `if (isAdult)` runs the block only when `isAdult` is `true`.
+4. `MessageBox.Show("You can vote.");` displays a message box.
+
+## What is a flag?
+
+A **flag** is a `bool` variable that records whether a condition is true or false. Giving it a clear name (like `isAdult`) makes the code easier to read, and the same flag can be reused in several places.
+
+## Example results
+
+| age | `age >= 18` | `isAdult` | Result |
+|-----|-------------|-----------|--------|
+| 20  | true        | true      | Message box appears |
+| 18  | true        | true      | Message box appears |
+| 15  | false       | false     | Nothing happens |
+
+## Notes
+
+- `if (isAdult)` is the same as `if (isAdult == true)`, but cleaner.
+- Use `if (!isAdult)` to test for the opposite (under 18).
+- `MessageBox` requires a **Windows Forms** project (`using System.Windows.Forms;`). In a Console App, use `Console.WriteLine(...)` instead.
+- Put the code inside a method, for example a button click event:
+
+```csharp
+private void checkButton_Click(object sender, EventArgs e)
+{
+    int age = 20;
+    bool isAdult = age >= 18;
+
+    if (isAdult)
+    {
+        MessageBox.Show("You can vote.");
+    }
+}
+```
+
+## Requirements
+
+- Visual Studio
+- .NET (Windows Forms App)
+
+6. Comparing Strings
+
+# Comparing Strings (C#)
+
+A short C# example showing how to compare two `string` values using the `==` and `!=` operators.
+
+## Code
+
+```csharp
+string name1 = "Ali";
+string name2 = "Ali";
+
+// Check if both names are the same
+if (name1 == name2)
+{
+    MessageBox.Show("Names are the same.");
+}
+
+// Check if name1 is different from "bob"
+if (name1 != "bob")
+{
+    MessageBox.Show("Name is not bob.");
+}
+```
+
+## What it does
+
+1. `string name1 = "Ali";` and `string name2 = "Ali";` create two string variables with the same value.
+2. `if (name1 == name2)` checks whether the two strings are equal. `"Ali" == "Ali"` is `true`, so the first message box appears.
+3. `if (name1 != "bob")` checks whether `name1` is different from `"bob"`. `"Ali" != "bob"` is `true`, so the second message box appears.
+
+## Output
+
+Two message boxes appear one after the other:
+
+1. `Names are the same.`
+2. `Name is not bob.`
+
+## Example results
+
+| name1 | name2 | `name1 == name2` | `name1 != "bob"` |
+|-------|-------|------------------|------------------|
+| "Ali" | "Ali" | true | true |
+| "Ali" | "Omar" | false | true |
+| "bob" | "bob" | true | false |
+| "Bob" | "bob" | false | true |
+
+## Notes
+
+- String comparison with `==` and `!=` is **case-sensitive**: `"Ali"` is not equal to `"ali"`.
+- To ignore case, use:
+
+```csharp
+if (name1.Equals(name2, StringComparison.OrdinalIgnoreCase))
+{
+    MessageBox.Show("Names are the same (ignoring case).");
+}
+```
+
+- In C#, `==` compares the **text value** of strings (not memory addresses like in Java).
+- `MessageBox` requires a **Windows Forms** project (`using System.Windows.Forms;`). In a Console App, use `Console.WriteLine(...)` instead.
+
+## Requirements
+
+- Visual Studio
+- .NET (Windows Forms App)
+
+6. Comparing Strings
+# Comparing Strings in C#
+
+## Description
+This program uses `int.TryParse()` to check whether text can be converted into an integer. It displays a message box showing the number if the conversion succeeds, or an error message if it fails.
+
+## Concepts Used
+- `int.TryParse()`
+- `if-else` Statement
+- Integer Validation
+- `MessageBox.Show()`
+
+## How It Works
+1. Declares an integer variable named `number`.
+2. Tries to convert the text into an integer.
+3. If successful, displays the entered number.
+4. Otherwise, displays an error message.
+
+## Example Output
+- Success: `You entered 25`
+- Failure: `That is not a valid integer.`
+
+## Language
+C# (Windows Forms)
+
+7. TryParse
+# C# TryParse
+
+## Description
+This program uses `int.TryParse()` to validate the number of hours entered by the user and calculate the total pay, including overtime.
+
+## Concepts Used
+- `int.TryParse()`
+- `if-else` Statement
+- `decimal` Variables
+- Overtime Calculation
+- Currency Formatting
+
+## How It Works
+1. Validates the hours entered by the user.
+2. Calculates regular pay at $15 per hour.
+3. Calculates overtime pay at 1.5 times the hourly rate for hours exceeding 40.
+4. Displays the total pay in currency format.
+5. Shows an error message if the input is invalid.
+
+## Example Output
+- Hours: 40 → Pay: $600.00
+- Hours: 45 → Pay: $712.50
+- Invalid input → Please enter a valid number of hours.
+
+## Language
+C# (Windows Forms)
+
+8. Input Validation
+
+# C# Input Validation – Required Field
+
+## Description
+This program checks whether the Name TextBox is empty. If no name is entered, it displays a warning message.
+
+## Concepts Used
+- `if` Statement
+- String Comparison
+- `MessageBox.Show()`
+- Input Validation
+
+## How It Works
+1. Checks whether `nameTextBox` is empty.
+2. If empty, displays `"Name is required."`
+3. If a name is entered, no warning is displayed.
+
+## Example Output
+`Name is required.`
+
+## Language
+C# (Windows Forms)
+
+9. RadioButton and CheckBox
+# C# RadioButton and CheckBox
+
+## Description
+This program uses a CheckBox to change the font style of a Label. When the CheckBox is selected, the text becomes bold. When it is unchecked, the text returns to regular style.
+
+## Concepts Used
+- CheckBox Control
+- RadioButton Control
+- `if-else` Statement
+- `Checked` Property
+- `FontStyle.Bold`
+- `FontStyle.Regular`
+- `CheckedChanged` Event
+
+## How It Works
+1. The user checks the Bold CheckBox.
+2. The Label text changes to bold.
+3. When the CheckBox is unchecked, the text returns to regular style.
+
+## Language
+C# (Windows Forms)
+
+10. switch Statement
+
+# C# Switch Statement
+
+## Description
+This program uses a `switch` statement to determine the name of a weekday based on a given day number.
+
+## Concepts Used
+- `switch` Statement
+- `case` Labels
+- `break` Statement
+- `default` Case
+- String Variables
+
+## How It Works
+1. Stores the day number in the `day` variable.
+2. Uses `switch` to check the value of `day`.
+3. Assigns the corresponding day name to the `name` variable.
+4. Uses `default` if the number is not between 1 and 5.
+
+## Example Output
+Input: `3`
+
+Output: `Wednesday`
+
+## Language
+C# (Windows Forms)
+
+
+11. ListBox
+# C# ListBox Control
+
+## Description
+This program uses a `ListBox` control to display a list of weekdays. It adds Monday, Tuesday, and Wednesday to the list.
+
+## Concepts Used
+- ListBox Control
+- `Items.Add()` Method
+- Windows Forms Controls
+
+## How It Works
+1. Adds Monday to the ListBox.
+2. Adds Tuesday to the ListBox.
+3. Adds Wednesday to the ListBox.
+4. Displays all three days in the ListBox.
+
+## Example Output
+- Monday
+- Tuesday
+- Wednesday
+
+## Language
+C# (Windows Forms)
+
+
+
+
+
+
+
+

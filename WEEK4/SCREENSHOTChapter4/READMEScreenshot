@@ -1,0 +1,82 @@
+1
+# While Loop in C#
+## Description
+This program demonstrates how to use the `while` loop in C#. It repeats a block of code as long as the condition is true.
+
+## How It Works
+- Declares an integer variable called `count` and initializes it to 0.
+- Uses a `while` loop to check if `count` is less than 5.
+- Displays a "Hello" message using `MessageBox.Show()`.
+- Increases the count by 1 after each repetition.
+- Stops when the count reaches 5.
+## Output
+The program displays the "Hello" message 5 times.
+## Conclusion
+The while loop is used to repeat code while a given condition remains true.
+
+2
+# Increment (++) and Decrement (--) Operators in C#
+
+## Description
+This program demonstrates how increment (`++`) increases a variable by 1 and decrement (`--`) decreases a variable by 1.
+
+## How It Works
+- Initializes `count` to 5 and `x` to 0.
+- Displays the values before increment.
+- Uses `++count` to increase count by 1.
+- Assigns the new value to `x`.
+- Displays the updated values.
+## Output
+X = 6, Count = 6.
+## Conclusion
+This program explains how increment and decrement operators work in C#.
+
+3
+# For Loop in C#
+
+## Description
+This program demonstrates how to use the `for` loop to repeat a block of code five times.
+
+## How It Works
+- Initializes the count variable to 0.
+- Checks if count is less than 5.
+- Displays a "Hello" message.
+- Increases count by 1 after each repetition.
+
+## Output
+The "Hello" message is displayed 5 times.
+
+## Conclusion
+The for loop is used to repeat code based on initialization, condition, and update.
+
+4
+# Do-While Loop in C#
+
+## Description
+This program demonstrates how to use the `do-while` loop in C#. It executes the code at least once before checking the condition.
+## How It Works
+- Initializes the count variable to 1.
+- Executes the code inside the `do` block.
+- Displays the count using a message box.
+- Increases count by 1.
+- Repeats while count is less than or equal to 5.
+## Output
+Displays numbers from 1 to 5.
+
+## Conclusion
+The do-while loop executes the code at least once before checking the condition.
+
+5
+
+# Infinite Loop in C#
+
+## Description
+This program demonstrates a loop that continues running while its condition is true.
+
+## How It Works
+- Initializes the count variable to 0.
+- Uses a while loop to check the condition.
+- Displays a "Hello" message using MessageBox.
+
+## Conclusion
+An infinite loop occurs when the loop condition never becomes false.

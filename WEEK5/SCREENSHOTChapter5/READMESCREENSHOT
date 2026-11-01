@@ -1,0 +1,29 @@
+1
+# Creating a Text File in C#
+
+This program creates a text file named `Barowo.text` using `File.CreateText()`. It uses `StreamWriter` and `WriteLine()` to write the student's name, university, faculty, and age into the file, with each piece of information on a separate line. The `Close()` method closes the file after writing is complete, and `MessageBox.Show()` displays a message confirming that the file was created successfully.
+
+2
+# Creating and Saving a Text File in C#
+
+This program uses `SaveFileDialog` to allow the user to choose where to save a text file. When the user clicks Save, `File.CreateText()` creates the file, and `WriteLine()` writes two names into it. The `Close()` method closes the file after writing. A message confirms whether the file was saved successfully or canceled.
+
+3
+# Appending Data to a Text File in C#
+
+This program uses `File.AppendText()` to add new data to the existing `Barowo.txt` file without deleting the previous content. The `WriteLine()` method adds two lines containing the text "zaam". The `Close()` method closes the file after writing. A `try-catch` block handles errors, and `MessageBox.Show()` displays a success or error message.
+
+4
+# Reading a Text File in C#
+
+This program uses `StreamReader` and `File.OpenText()` to open and read a text file. The `while` loop reads the file line by line until the end of the file is reached. The `ReadLine()` method reads each line, and `listBox1.Items.Add()` displays the text in a ListBox. The `try-catch` block handles errors and displays a message if a problem occurs.
+
+5
+# Creating and Saving a Text File in C#
+
+This program uses `SaveFileDialog` to let the user choose where to save a text file. If the user clicks OK, `File.CreateText()` creates the file, and `WriteLine()` writes three lines of text into it. The `Close()` method closes the file after writing, and `MessageBox.Show()` displays a success message. If the user cancels, the program does not save the file.
+
+6
+# Reading a Text File in C#
+
+This program uses `OpenFileDialog` to allow the user to select a text file to open. If the user clicks OK, `File.OpenText()` opens the selected file, and a `while` loop reads the file line by line using `ReadLine()`. Each line is displayed in `listBox1` using `Items.Add()`. If the user cancels the operation, `MessageBox.Show()` displays a message indicating that the file was not opened.

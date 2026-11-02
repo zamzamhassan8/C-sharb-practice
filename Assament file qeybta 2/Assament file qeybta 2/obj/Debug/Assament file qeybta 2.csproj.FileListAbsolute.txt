@@ -1,0 +1,11 @@
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\bin\Debug\Assament file qeybta 2.exe.config
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\bin\Debug\Assament file qeybta 2.exe
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\bin\Debug\Assament file qeybta 2.pdb
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament_file_qeybta_2.Form1.resources
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament_file_qeybta_2.Properties.Resources.resources
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.csproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.exe
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.pdb
+C:\Users\hp\OneDrive\Desktop\Assament file qeybta 2\Assament file qeybta 2\obj\Debug\Assament file qeybta 2.exe.config
